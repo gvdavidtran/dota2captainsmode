@@ -1,0 +1,46 @@
+<html>
+
+<head>
+  <title>Dota 2 Captain's Mode</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+  <div id="app">
+    <h1 class='text-center'>Captain's mode</h1>
+    <div class="row">
+      <div class="col-md-6">
+         <div id="heroes-list"></div>
+      </div>
+      <div class="col-md-6 text-center">
+        <button id='start'>Start</button>
+        <h2 id='current-turn'>Current Turn</h2> 
+        <button id='select-hero'>Select</button>
+        <div class="row">
+          <div class="col-md-6 team1">
+            <h3>Team 1</h3>
+            <h4>Bans</h4>
+            <div class='bannedArea1'>Bans go here</div>
+            <h4>Picks</h4>
+            <div class="pickedArea1">Picks go here</div>
+          </div>
+          <div class="col-md-6 team2">
+            <h3>Team 2</h3>
+            <h4>Bans</h4>
+            <div class='bannedArea2'>Bans go here</div>
+            <h4>Picks</h4>
+            <div class="pickedArea2">Picks go here</div>
+          </div>
+        </div>
+                
+      </div>
+    </div>
+  </div>
+
+  <script src="src/index.js"></script>
+</body>
+
+</html>

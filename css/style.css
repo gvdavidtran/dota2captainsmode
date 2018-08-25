@@ -1,0 +1,8 @@
+.selected {
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+}
+
+.hero:hover { 
+    background-color: yellow;
+}
