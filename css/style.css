@@ -6,3 +6,17 @@
 .hero:hover { 
     background-color: yellow;
 }
+
+.attribute-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.disabled {
+  opacity: 0.65; 
+  cursor: not-allowed;
+}
+
+.hidden {
+  display: none;
+}

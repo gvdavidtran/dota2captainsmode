@@ -13,26 +13,35 @@
     <h1 class='text-center'>Captain's mode</h1>
     <div class="row">
       <div class="col-md-6">
-         <div id="heroes-list"></div>
+         <div id="heroes-list">
+           <h5>Strength</h5>
+           <div class='attribute-section' id="strength"></div>
+           <h5>Agility</h5>
+           <div class='attribute-section' id="agility"></div>
+           <h5>Intelligence</h5>
+           <div class='attribute-section' id="intelligence"></div>
+         </div>
       </div>
       <div class="col-md-6 text-center">
         <button id='start'>Start</button>
-        <h2 id='current-turn'>Current Turn</h2> 
-        <button id='select-hero'>Select</button>
-        <div class="row">
-          <div class="col-md-6 team1">
-            <h3>Team 1</h3>
-            <h4>Bans</h4>
-            <div class='bannedArea1'>Bans go here</div>
-            <h4>Picks</h4>
-            <div class="pickedArea1">Picks go here</div>
-          </div>
-          <div class="col-md-6 team2">
-            <h3>Team 2</h3>
-            <h4>Bans</h4>
-            <div class='bannedArea2'>Bans go here</div>
-            <h4>Picks</h4>
-            <div class="pickedArea2">Picks go here</div>
+        <div class="hidden" id='hero-select-area'>
+          <h2 id='current-turn'></h2>
+          <button id='pick-or-ban'></button>
+          <div class="row">
+            <div class="col-md-6 team1">
+              <h3>Team 1</h3>
+              <h4>Bans</h4>
+              <div class='bannedArea1'></div>
+              <h4>Picks</h4>
+              <div class="pickedArea1"></div>
+            </div>
+            <div class="col-md-6 team2">
+              <h3>Team 2</h3>
+              <h4>Bans</h4>
+              <div class='bannedArea2'></div>
+              <h4>Picks</h4>
+              <div class="pickedArea2"></div>
+            </div>
           </div>
         </div>
                 
