@@ -1,10 +1,25 @@
+body {
+  background-color: #1B1E21;
+  color: #FEFEFE;
+}
+
 .selected {
   border-radius: 10px;
   box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
 }
 
-.hero:hover { 
+/*.hero:hover { 
     background-color: yellow;
+
+}*/
+
+.hero {
+  padding: 0.1rem;
+  transition: all .1s ease-in-out;
+}
+
+.hero:hover { 
+  transform: scale(1.4); 
 }
 
 .attribute-section {
@@ -19,4 +34,8 @@
 
 .hidden {
   display: none;
+}
+
+.attribute-section {
+  padding-bottom: 1rem;
 }
